@@ -1,3 +1,7 @@
+
+/****the first part *****/
+
+
 // // Create an array that contains the letters of the alphabet
 // var alphabet = [ 'a' , 'b' , 'c' ,'d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 // var alphaStaker= "";
@@ -18,25 +22,44 @@
 
 // stackLetters(alphabet);
 
+/****the second part *****/
+
+// var alphabet = [ 'a', 'b', 'c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+// function stackLetters () {
+// var space= "";
+// var alphaStaker= "";
+// for ( var i=0  ; i < alphabet.length  ; i = i + 1){
+// 	alphaStaker += alphabet[i];
+// 	space = alphaStaker.replace(/\s/g, "");
+// 	if (space.length % 3 === 0){
+// 		alphaStaker += " " ;	
+// 	}
+// 	else {
+// 		console.log(alphaStaker);
+// 	}
+// }
+// }
+  
+// stackLetters();
 
 
+/**the second part ***/
+  
 var alphabet = [ 'a', 'b', 'c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 function stackLetters () {
-var space= "";
+ var space= "";
 var alphaStaker= "";
 for ( var i=0  ; i < alphabet.length  ; i = i + 1){
 	alphaStaker += alphabet[i];
-	space = alphaStaker.replace(/\s/g, "");
-	if (space.length % 3 === 0){
-		alphaStaker += " " ;	
+	    space = alphaStaker.length ;
+	if ((space+ 1 )% 4 === 0){
+		alphaStaker += " " ;		
 	}
-	else {
-		console.log(alphaStaker);
+	 {
+	 console.log(alphaStaker);
 	}
 }
 }
   
 stackLetters();
-
-
 
