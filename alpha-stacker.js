@@ -35,7 +35,7 @@ for ( var i=0  ; i < alphabet.length  ; i = i + 1){
 	}
 }
 }
-
+  
 stackLetters();
 
 
